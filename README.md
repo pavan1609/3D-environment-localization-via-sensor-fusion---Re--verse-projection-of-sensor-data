@@ -15,4 +15,6 @@ A good reference for sensor fusion in SLAM (Simultaneous Localization and Mappin
 This project requires Python 3 and several libraries for sensor fusion and data processing. Here are the dependencies to install:
 
 ```bash
-pip install numpy opencv-python
+pip install numpy
+pip install opencv
+pip install open3d
