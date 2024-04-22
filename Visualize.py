@@ -39,9 +39,7 @@ def project_labels_into_camera(camera_calibration, image, labels, labels_valid, 
     else:
         return image
 
-# Example usage:
-# Assuming you have the required data structures like `camera_calibration`, `image`, `object_labels`, `labels_valid`
-
+# Assuming we have the required data structures like `camera_calibration`, `image`, `object_labels`, `labels_valid`
 # Project object labels into camera image
 img_with_labels = project_labels_into_camera(camera_calibration, image, object_labels, labels_valid)
 
