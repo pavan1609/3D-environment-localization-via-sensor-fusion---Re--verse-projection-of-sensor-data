@@ -39,7 +39,6 @@ def fuse_sensor_data(kinect_point_cloud, inertial_data):
 
     return fused_point_cloud
 
-# Example usage
 if __name__ == "__main__":
     # Load Kinect data (example)
     rgb_image = cv2.imread("rgb_image.png")
@@ -49,7 +48,7 @@ if __name__ == "__main__":
     kinect_point_cloud = process_kinect_data(rgb_image, depth_image)
 
     # Load inertial sensor data (example)
-    inertial_data = np.random.rand(100, 3)  # Example inertial data, replace with actual data
+    inertial_data = np.random.rand(100, 3)  # actual data
 
     # Fuse sensor data
     fused_point_cloud = fuse_sensor_data(kinect_point_cloud, inertial_data)
